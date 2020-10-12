@@ -1,5 +1,8 @@
 # vue-bootstrap-demo
 
+## Blog Post - Tutorial
+[Link](https://blog.logrocket.com/getting-started-with-bootstrapvue-2d8bf907ef11/)
+
 ## Project setup
 ```
 yarn install
