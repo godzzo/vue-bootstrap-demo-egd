@@ -1,5 +1,9 @@
 <template>
-  <div class="hello">
+  <div>
+    <Cards></Cards>
+  </div>
+  <!-- 
+  <div class="hello" >
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -28,13 +32,19 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+  -->
 </template>
 
 <script>
+import Cards from './Cards.vue'
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  components: {
+    Cards
   }
 }
 </script>
